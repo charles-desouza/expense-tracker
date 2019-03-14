@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ExpenseTracker.Api.Models
 {
-  public class ExpenseItem
+  public class Expense
   {
     public int Id { get; set; }
     public string Name { get; set; }
