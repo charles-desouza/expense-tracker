@@ -8,8 +8,9 @@ namespace ExpenseTracker.Api.Models
   public class Income
   {
     public int Id { get; set; }
-    public IncomeSource Source { get; set; }
+    public int SourceId { get; set; }
     public decimal Amount { get; set; }
     public DateTime DateTime { get; set; }
+    public IncomeSource Source { get; set; }
   }
 }
